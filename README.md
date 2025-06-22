@@ -38,7 +38,7 @@ I use a tagging system to make content easily discoverable:
 ## 📚 Repository Structure
 
 ```
-learn-ai-with-me/
+learn-agentic-ai-with-me/
 ├── blog/          # My learning journey blog posts
 ├── resources/     # Curated learning resources
 ├── projects/      # My practical AI projects
@@ -60,7 +60,6 @@ I believe learning is better together! While this repository documents my person
 ## 📝 Latest Updates
 
 - [My First Steps with Agentic AI](blog/2024-03/getting-started-with-agentic-ai.md)
-- [More updates coming soon...]
 
 ## 🗺️ Current Focus
 
