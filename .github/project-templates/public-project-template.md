@@ -1,4 +1,4 @@
-# Learn AI With Me - Community Roadmap 🚀
+# Learn Agentic AI with Me - Community Roadmap 🚀
 
 ## Project Views
 

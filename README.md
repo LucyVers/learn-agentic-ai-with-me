@@ -1,4 +1,4 @@
-# Learn AI With Me 🤖
+# Learn Agentic AI with Me 🤖
 
 ## 🎯 My Vision & Purpose
 

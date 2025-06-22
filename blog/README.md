@@ -1,4 +1,4 @@
-# Learn AI With Me Blog 📝
+# Learn Agentic AI with Me Blog 📝
 
 Welcome to our blog section! Here we share experiences, insights, and learnings about AI, with a special focus on Agentic AI.
 
