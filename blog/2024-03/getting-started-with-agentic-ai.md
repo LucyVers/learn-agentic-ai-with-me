@@ -75,14 +75,12 @@ As I continue exploring AI Agents, here's what I plan to focus on:
 ## References
 
 1. [Microsoft's AI Agents for Beginners Course](https://github.com/microsoft/ai-agents-for-beginners) - An excellent resource that helped me understand these concepts
-2. [Additional resources coming soon...]
-
----
-
-*This post is part of my AI learning journey. I'm learning in public and sharing my insights as I go. Have experience with AI Agents? I'd love to hear your thoughts and experiences in the comments!*
 
 ## Learning Resources I'm Using
 
 If you're interested in learning more about AI Agents, I highly recommend starting with:
 - Microsoft's AI Agents for Beginners course (linked above)
-- [Coming soon: More resources as I discover them] 
+
+---
+
+*This post is part of my AI learning journey. I'm learning in public and sharing my insights as I go. Have experience with AI Agents? I'd love to hear your thoughts and experiences in the comments!* 
