@@ -76,4 +76,4 @@ Want to suggest a channel or video? Create an issue with:
 
 ## 🔄 Regular Updates
 
-This list is updated monthly with new channels and videos. Last updated: March 2024 
+This list is updated monthly with new channels and videos. Last updated: June 2025 

@@ -59,7 +59,7 @@ I believe learning is better together! While this repository documents my person
 
 ## 📝 Latest Updates
 
-- [My First Steps with Agentic AI](blog/2024-03/getting-started-with-agentic-ai.md)
+- [My First Steps with Agentic AI](blog/2025-03/getting-started-with-agentic-ai.md)
 
 ## 🗺️ Current Focus
 

@@ -36,6 +36,59 @@ This course provides an excellent foundation in Agentic AI, combining theoretica
 - Hands-on exercises
 - Additional learning materials
 
+### [Elements of AI](https://www.elementsofai.se/)
+
+**Type:** Free, Self-paced, University Credit Available  
+**Focus:** AI Fundamentals  
+**Level:** Beginner  
+**Tags:** `#ai-basics` `#no-coding-required` `#university-credit` `#swedish` `#english`
+
+#### Available Courses
+
+1. **Introduction to AI**
+   - 15-30 hours of content
+   - No programming required
+   - 6 chapters covering AI basics
+   - Available completely free on [Elements of AI platform](https://course.elementsofai.com/se/)
+   - Optional: Can be taken for university credits (2 hp) through Linköping University
+
+2. **Building AI**
+   - Approximately 50 hours of content
+   - Flexible difficulty levels (from no-code to Python programming)
+   - 5 chapters of practical AI methods
+   - Available free on the platform
+   - Optional certificate available for purchase
+
+#### Introduction to AI - Chapter Overview
+1. What is artificial intelligence?
+2. Problem-solving with AI
+3. AI in practice
+4. Machine learning
+5. Neural networks
+6. Implications and future of AI
+
+#### Building AI - Chapter Overview
+1. Getting started with AI
+2. Dealing with uncertainty
+3. Machine learning
+4. Neural networks
+5. Conclusion & Your AI project
+
+#### Why I Recommend It
+This comprehensive program stands out for its flexibility and accessibility. The two-course structure allows learners to progress from basic concepts to practical implementation. The Introduction to AI course can be taken either freely on the platform or through Linköping University for formal credits, while Building AI offers hands-on experience with optional programming components.
+
+#### University Credit Information (For Introduction to AI)
+- Course Code: ETE318
+- Credits: 2 hp
+- Language: Available in both Swedish and English
+- Enrollment: Flexible start dates throughout 2025
+- Prerequisites: Basic university eligibility
+- Platform Access: Free
+- University Credit Cost: 
+  - Free for EU/EES students
+  - 4700 SEK for non-EU/EES students
+- Contact: Fredrik Heintz (fredrik.heintz@liu.se)
+
 ---
 
 *Know a great course that should be listed here? Feel free to contribute by submitting a pull request!* 

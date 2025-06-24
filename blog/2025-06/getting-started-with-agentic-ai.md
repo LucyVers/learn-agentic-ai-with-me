@@ -1,8 +1,10 @@
 # Understanding AI Agents: The Building Blocks of Autonomous AI
 
-**Date:** June 22, 2025  
-**Reading Time:** 12 minutes  
-**Tags:** `#agentic-ai` `#beginner` `#learning-journey` `#ai-fundamentals`
+*Published: June 22 2025*  
+*Author: Lucy Sonberg*  
+*Reading Time: 12 minutes*
+
+> **Summary**: Dive into the fascinating world of AI Agents and discover how they're revolutionizing automation. Learn about the "sense-think-act" cycle, core components of AI Agents, and why they're the next big step in AI evolution. Perfect for beginners starting their journey into Agentic AI.
 
 ## My Journey into AI Agents
 
@@ -72,15 +74,23 @@ As I continue exploring AI Agents, here's what I plan to focus on:
 3. Different types of agents serve different purposes
 4. The field is rapidly evolving with new possibilities emerging regularly
 
-## References
-
-1. [Microsoft's AI Agents for Beginners Course](https://github.com/microsoft/ai-agents-for-beginners) - An excellent resource that helped me understand these concepts
-
-## Learning Resources I'm Using
+## Learning Resources
 
 If you're interested in learning more about AI Agents, I highly recommend starting with:
-- Microsoft's AI Agents for Beginners course (linked above)
+- [Microsoft's AI Agents for Beginners Course](https://github.com/microsoft/ai-agents-for-beginners) - An excellent resource that helped me understand these concepts
+- [Our Curated List of AI Learning Resources](/resources/courses/README.md) - More great resources for learning about AI
+
+## Join the Conversation
+
+I'm learning in public and sharing my insights as I go. Have experience with AI Agents? I'd love to hear your thoughts and experiences in the comments below!
 
 ---
 
-*This post is part of my AI learning journey. I'm learning in public and sharing my insights as I go. Have experience with AI Agents? I'd love to hear your thoughts and experiences in the comments!* 
+*Keywords: AI agents, autonomous AI, sense-think-act cycle, machine learning, artificial intelligence, AI automation, AI learning journey, beginner AI, agentic AI, AI development*
+
+*Tags: #agentic-ai #beginner #learning-journey #ai-fundamentals #automation #ai-agents*
+
+*Share this article:*
+- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL})
+- [Share on Twitter](https://twitter.com/intent/tweet?text=Understanding%20AI%20Agents:%20A%20Beginner's%20Guide&url={URL})
+- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u={URL}) 
