@@ -211,9 +211,7 @@ I've also added this course to our [curated list of AI learning resources](/reso
 *Tags: #education #ai-basics #university-credits #free-resources #sweden #python-optional*
 
 *Share this article:*
-- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL})
-- [Share on Twitter](https://twitter.com/intent/tweet?text=Check%20out%20this%20free%20AI%20course%20offering%20university%20credits!&url={URL})
-- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u={URL}) 
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL}) | [Discuss on GitHub](https://github.com/LucyVers/learn-ai-with-me/discussions)
 
 <!-- PUBLISHING CHECKLIST -->
 <!--

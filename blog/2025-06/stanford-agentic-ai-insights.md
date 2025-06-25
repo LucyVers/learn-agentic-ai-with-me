@@ -193,9 +193,7 @@ Have you implemented any of these patterns? Share your experiences in the commen
 *Tags: #agentic-ai #tutorial #advanced #implementation #stanford #ai-patterns*
 
 *Share this article:*
-- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL})
-- [Share on Twitter](https://twitter.com/intent/tweet?text=Stanford%27s%20Deep%20Dive%20into%20Agentic%20AI:%20Key%20Insights%20for%20Developers&url={URL})
-- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u={URL})
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL}) | [Discuss on GitHub](https://github.com/LucyVers/learn-ai-with-me/discussions)
 
 <!-- Schema.org markup for blog post -->
 <script type="application/ld+json">

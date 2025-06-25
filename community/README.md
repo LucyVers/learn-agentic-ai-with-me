@@ -36,26 +36,26 @@ community/
 ## Events
 
 ### Regular Meetups
-- **Weekly Study Groups**
+- **Weekly Study Groups** (Coming Soon - Q3 2025)
   - Focus: Core AI concepts
   - Format: Virtual discussions
   - Schedule: Wednesdays, 18:00 CET
-  - Join: [Discord](#)
+  - Platform: Discord server launching in August 2025
 
-- **Monthly Workshops**
+- **Monthly Workshops** (Planned - Q4 2025)
   - Focus: Hands-on projects
   - Format: Live coding
   - Schedule: Last Saturday
-  - Register: [Events Page](#)
+  - Registration opens: September 2025
 
 ### Special Events
-- **AI Learning Hackathons**
+- **AI Learning Hackathons** (Starting Q4 2025)
   - Quarterly challenges
   - Team-based projects
   - Expert mentorship
   - Prizes and recognition
 
-- **Guest Speaker Series**
+- **Guest Speaker Series** (Launching Q1 2026)
   - Industry experts
   - Academic researchers
   - Practical insights
@@ -85,7 +85,7 @@ community/
 
 ## Discussion Forums
 
-### Active Channels
+### Active Channels (Available from August 2025)
 - **#beginners-help**
   - Basic concepts
   - Tool setup

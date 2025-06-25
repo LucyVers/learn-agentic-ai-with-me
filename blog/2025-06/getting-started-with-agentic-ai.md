@@ -196,9 +196,7 @@ I'm learning in public and sharing my insights as I go. Have experience with AI 
 *Tags: #agentic-ai #beginner #learning-journey #ai-fundamentals #automation #ai-agents*
 
 *Share this article:*
-- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL})
-- [Share on Twitter](https://twitter.com/intent/tweet?text=Understanding%20AI%20Agents:%20A%20Beginner's%20Guide&url={URL})
-- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u={URL}) 
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={URL}) | [Discuss on GitHub](https://github.com/LucyVers/learn-ai-with-me/discussions)
 
 <!-- PUBLISHING CHECKLIST -->
 <!--

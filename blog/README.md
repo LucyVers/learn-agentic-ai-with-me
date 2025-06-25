@@ -36,53 +36,55 @@ blog/
 
 ## Blog Post Template
 
-When creating a new post, use this structure:
+Below is an EXAMPLE template for blog posts. Replace all placeholder content with your actual content:
 
 ```markdown
-# Title: Make it Clear and Engaging 🎯
+# [EXAMPLE] Title: Make it Clear and Engaging 🎯
 
 *Published: YYYY-MM-DD*  
-*Author: Lucy Sonberg*  
+*Author: Your Name*  
 *Reading Time: X minutes*
 
-> **Summary**: Write a compelling 2-3 sentence summary that will appear in search results. Include main keywords naturally while keeping it informative and engaging.
+> **Summary**: [EXAMPLE] Write a compelling 2-3 sentence summary that will appear in search results.
 
 ## Introduction
-Brief overview and importance. Hook readers with an engaging opening.
+[EXAMPLE] Brief overview and importance. Hook readers with an engaging opening.
 
 ## Main Content
-Divide into clear sections using:
+[EXAMPLE] Divide into clear sections using:
 - Engaging paragraphs
 - Bullet points
 - Real examples
 - Personal insights
 
 ### Section 1
-Content...
+[EXAMPLE] Content...
 
 ### Section 2
-Content...
+[EXAMPLE] Content...
 
 ## Key Takeaways
+[EXAMPLE]
 - Main point 1
 - Main point 2
 - Main point 3
 
 ## Learning Resources
+[EXAMPLE]
 - [Resource 1](link) - Description
 - [Resource 2](link) - Description
 - [Our Resources](/resources/courses) - More materials
 
 ## Join the Discussion
-Engagement prompt and discussion invitation.
+[EXAMPLE] Engagement prompt and discussion invitation.
 
 ---
 
-*Keywords: keyword1, keyword2, keyword3, keyword4, keyword5*
-*Tags: #primary-tag #secondary-tag #topic-tag*
+*Keywords: [EXAMPLE] keyword1, keyword2, keyword3*
+*Tags: [EXAMPLE] #primary-tag #secondary-tag #topic-tag*
 
-*Share:*
-[LinkedIn](link) | [Twitter](link) | [Facebook](link)
+*Share this content:*
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/) | [Discuss on GitHub](https://github.com/LucyVers/learn-ai-with-me/discussions)
 ```
 
 ## Content Guidelines
