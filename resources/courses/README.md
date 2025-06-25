@@ -1,94 +1,163 @@
 # AI Learning Courses 📚
 
-A curated collection of high-quality courses for learning AI, with a special focus on Agentic AI.
+<!-- SEO and Directory Information -->
+<meta name="directory-type" content="resource-collection" />
+<meta name="primary-topic" content="AI Education" />
+<meta name="resource-type" content="courses" />
+<meta name="audience" content="learners, developers, students" />
+<meta name="last-updated" content="2025-06-25" />
+<meta name="maintainer" content="Lucy Sonberg" />
 
-## Featured Courses
+> **Quick Navigation**: [Microsoft AI Agents](#microsoft-ai-agents-for-beginners) | [Elements of AI](#elements-of-ai) | [Back to Main](/README.md)
 
-### [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
+## Overview
 
-**Type:** Free, Self-paced  
-**Focus:** Agentic AI, AI Fundamentals  
-**Level:** Beginner to Intermediate  
-**Tags:** `#agentic-ai` `#microsoft` `#hands-on` `#python`
+A comprehensive collection of carefully selected AI courses, focusing on Agentic AI and practical implementation. This directory features courses ranging from beginner-friendly introductions to advanced implementations, with special attention to courses offering hands-on experience with modern AI tools and frameworks.
 
-#### Course Overview
-- 11 comprehensive lessons
-- Practical code examples
-- Focus on real-world applications
-- Uses industry-standard frameworks (Semantic Kernel, AutoGen)
+## Why These Resources Matter
 
-#### Key Topics Covered:
-1. Introduction to AI Agents
-2. Agentic Frameworks
-3. Design Patterns
-4. Tool Usage
-5. RAG Implementation
-6. Trustworthy AI
-7. Planning & Multi-agent Systems
-8. Production Deployment
+High-quality AI education is crucial for building strong foundations and practical skills. Our course selection is based on:
+- Industry relevance and modern practices
+- Hands-on learning opportunities
+- Clear progression paths
+- Quality of instruction
+- Real-world applications
+- Optional certification paths
 
-#### Why I Recommend It
-This course provides an excellent foundation in Agentic AI, combining theoretical knowledge with practical implementation. It's particularly valuable for its focus on production-ready skills and industry best practices.
+## Directory Structure
+```
+courses/
+├── README.md           # This guide
+└── reviews/           # Detailed course reviews and experiences
+```
 
-#### Resources Included
-- Video tutorials
-- Python code samples
-- Hands-on exercises
-- Additional learning materials
+## Categories
 
-### [Elements of AI](https://www.elementsofai.se/)
+### Professional Development Courses
 
-**Type:** Free, Self-paced, University Credit Available  
-**Focus:** AI Fundamentals  
-**Level:** Beginner  
-**Tags:** `#ai-basics` `#no-coding-required` `#university-credit` `#swedish` `#english`
+#### [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
+- **What**: Comprehensive introduction to AI Agents development
+- **Why Important**: Industry-standard frameworks and practical implementation
+- **Best For**: Developers starting with Agentic AI
+- **Key Features**:
+  - 11 comprehensive lessons
+  - Practical code examples
+  - Industry-standard frameworks
+  - Production-ready skills
+- **Topics Covered**:
+  1. Introduction to AI Agents
+  2. Agentic Frameworks
+  3. Design Patterns
+  4. Tool Usage
+  5. RAG Implementation
+  6. Trustworthy AI
+  7. Planning & Multi-agent Systems
+  8. Production Deployment
+- **Resources**:
+  - Video tutorials
+  - Python code samples
+  - Hands-on exercises
+  - Additional materials
 
-#### Available Courses
+### Academic Courses
 
-1. **Introduction to AI**
-   - 15-30 hours of content
-   - No programming required
-   - 6 chapters covering AI basics
-   - Available completely free on [Elements of AI platform](https://course.elementsofai.com/se/)
-   - Optional: Can be taken for university credits (2 hp) through Linköping University
+#### [Elements of AI](https://www.elementsofai.se/)
+- **What**: University-level AI fundamentals course
+- **Why Important**: Combines academic rigor with practical learning
+- **Best For**: Students seeking formal education
+- **Key Features**:
+  - University credits available
+  - Multiple language support
+  - Flexible learning paths
+  - No coding prerequisites
+- **Available Tracks**:
+  1. **Introduction to AI**
+     - 15-30 hours content
+     - 2 university credits (hp)
+     - 6 comprehensive chapters
+     - Free access
+  2. **Building AI**
+     - 50 hours content
+     - Python programming optional
+     - 5 practical chapters
+     - Certificate available
+- **Academic Details**:
+  - Course Code: ETE318
+  - Credits: 2 hp
+  - Languages: Swedish, English
+  - Cost: Free (EU/EES), 4700 SEK (non-EU/EES)
 
-2. **Building AI**
-   - Approximately 50 hours of content
-   - Flexible difficulty levels (from no-code to Python programming)
-   - 5 chapters of practical AI methods
-   - Available free on the platform
-   - Optional certificate available for purchase
+## How to Use These Resources
 
-#### Introduction to AI - Chapter Overview
-1. What is artificial intelligence?
-2. Problem-solving with AI
-3. AI in practice
-4. Machine learning
-5. Neural networks
-6. Implications and future of AI
+### For Beginners
+- Start with Elements of AI Introduction course
+- Focus on fundamental concepts
+- Choose no-code options initially
+- Build theoretical understanding
 
-#### Building AI - Chapter Overview
-1. Getting started with AI
-2. Dealing with uncertainty
-3. Machine learning
-4. Neural networks
-5. Conclusion & Your AI project
+### For Practitioners
+- Take Microsoft AI Agents course
+- Focus on hands-on implementations
+- Work through practical exercises
+- Build portfolio projects
 
-#### Why I Recommend It
-This comprehensive program stands out for its flexibility and accessibility. The two-course structure allows learners to progress from basic concepts to practical implementation. The Introduction to AI course can be taken either freely on the platform or through Linköping University for formal credits, while Building AI offers hands-on experience with optional programming components.
+### For Researchers
+- Combine multiple course resources
+- Focus on advanced topics
+- Engage with course communities
+- Contribute to discussions
 
-#### University Credit Information (For Introduction to AI)
-- Course Code: ETE318
-- Credits: 2 hp
-- Language: Available in both Swedish and English
-- Enrollment: Flexible start dates throughout 2025
-- Prerequisites: Basic university eligibility
-- Platform Access: Free
-- University Credit Cost: 
-  - Free for EU/EES students
-  - 4700 SEK for non-EU/EES students
-- Contact: Fredrik Heintz (fredrik.heintz@liu.se)
+## Best Practices
+- Complete exercises and assignments
+- Join course discussion forums
+- Build practical projects
+- Document your learning journey
+- Network with fellow learners
+
+## Contributing
+
+To suggest a course:
+
+1. **Evaluation Criteria**
+   - Must be actively maintained
+   - Must have clear learning objectives
+   - Must provide practical value
+   - Must be accessible to our community
+
+2. **Submission Process**
+   - Fork the repository
+   - Add course details following our template
+   - Submit a pull request with:
+     - Course name and URL
+     - Provider information
+     - Detailed curriculum
+     - Learning outcomes
+     - Prerequisites
+     - Cost structure
+
+## Related Resources
+- [Blog Resources](/resources/blogs)
+- [Research Papers](/resources/research-papers)
+- [YouTube Tutorials](/resources/youtube)
+- [Tools Directory](/resources/tools)
+
+## Version History
+- v1.0 (June 2025) - Initial course collection
+- v1.1 (June 2025) - Added Microsoft AI Agents course
+- v1.2 (June 2025) - Updated to new template format
+
+<!-- INTERNAL NOTES -->
+<!--
+Maintenance Schedule:
+- Monthly: Update course availability and prices
+- Quarterly: Review course content and links
+- Semi-annual: Comprehensive curriculum review
+
+SEO Keywords: AI courses, machine learning education, artificial intelligence training, online AI learning, programming courses, AI certification
+Internal Classification: Educational Resources, Course Collection
+-->
 
 ---
-
-*Know a great course that should be listed here? Feel free to contribute by submitting a pull request!* 
+*Last Updated: June 25, 2025*  
+*Maintained by: Lucy Sonberg*  
+*Contact: Via GitHub Issues* 

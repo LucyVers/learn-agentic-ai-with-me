@@ -1,87 +1,165 @@
 # Learn Agentic AI with Me 🤖
 
-## 🎯 My Vision & Purpose
+<!-- SEO and Directory Information -->
+<meta name="repository-type" content="learning-journey" />
+<meta name="primary-topic" content="Agentic AI Learning" />
+<meta name="content-type" content="educational-resource" />
+<meta name="audience" content="AI learners, developers, enthusiasts" />
+<meta name="last-updated" content="2025-06-25" />
+<meta name="maintainer" content="Lucy Sonberg" />
 
-Welcome to my personal AI learning journey! This repository documents my path from beginner to AI builder, with a special focus on Agentic AI. I believe in learning by doing and sharing knowledge openly to help others grow.
+> **Quick Navigation**: [Vision](#vision--purpose) | [Content](#content-organization) | [Structure](#repository-structure) | [Join](#join-my-journey) | [Updates](#latest-updates)
 
-### 🌟 My Goals
+## Overview
 
-- Document my practical AI projects and implementations
-- Share high-quality learning resources I discover
-- Record my learning experiences - including failures
-- Build a supportive community around AI learning
-- Focus deeply on Agentic AI development
-- Create an open, transparent learning environment
+Welcome to my personal AI learning journey! This repository documents my path from beginner to AI builder, with a special focus on Agentic AI. Through practical projects, curated resources, and community collaboration, we're exploring the exciting world of autonomous AI systems together.
 
-## 🏷️ Content Organization
+## Vision & Purpose 🎯
 
-I use a tagging system to make content easily discoverable:
+I believe in learning by doing and sharing knowledge openly. My mission is to:
+- Document practical AI implementations
+- Share quality learning resources
+- Record real experiences and lessons
+- Build a supportive community
+- Focus on Agentic AI development
+- Create transparent learning paths
 
-### Primary Topics
-- `#agentic-ai` - AI Agents & Autonomous Systems
-- `#learning` - Educational Content & Tutorials
-- `#project` - Practical Implementations
-- `#research` - Paper Reviews & Deep Dives
-- `#news` - Latest Developments
+## Why This Matters
 
-### Experience Levels
-- `#beginner` - Perfect for Starting Out
-- `#intermediate` - Requires Some Background
-- `#advanced` - Complex Topics
+Agentic AI represents a transformative force in technology because:
+- It's the future of AI development
+- Solves real-world problems
+- Combines multiple AI disciplines
+- Drives practical innovation
+- Creates tangible user value
 
-### Special Tags
-- `#hands-on` - Practical Exercises
-- `#tutorial` - Step-by-Step Guides
-- `#community` - Community Discussions
-- `#resource` - Learning Materials
-
-## 📚 Repository Structure
-
+## Repository Structure 📚
 ```
 learn-agentic-ai-with-me/
-├── blog/          # My learning journey blog posts
-├── resources/     # Curated learning resources
-├── projects/      # My practical AI projects
-├── learning-logs/ # Detailed learning notes
-├── news/          # Agentic AI news tracking
-└── community/     # Community guidelines and discussions
+├── blog/          # Learning journey posts
+│   └── YYYY-MM/   # Monthly blog entries
+├── resources/     # Curated learning materials
+│   ├── courses/   # Course recommendations
+│   ├── papers/    # Research deep dives
+│   └── tools/     # Useful AI tools
+├── projects/      # Practical implementations
+├── learning-logs/ # Detailed study notes
+├── news/          # AI developments tracking
+└── community/     # Discussion & collaboration
 ```
 
-## 🤝 Join My Journey
+## Content Organization 🏷️
 
-I believe learning is better together! While this repository documents my personal journey, I welcome others to:
+### Primary Topics
+- `#agentic-ai`: Autonomous systems & agents
+- `#learning`: Educational content
+- `#project`: Real implementations
+- `#research`: Paper reviews
+- `#news`: Latest developments
 
-- Follow along with my progress
-- Share your own experiences
-- Suggest resources and improvements
-- Contribute to discussions
-- Start your own learning journey
+### Experience Levels
+- `#beginner`: Starting foundations
+- `#intermediate`: Building knowledge
+- `#advanced`: Complex concepts
 
-## 📝 Latest Updates
+### Special Tags
+- `#hands-on`: Practical exercises
+- `#tutorial`: Step-by-step guides
+- `#community`: Group discussions
+- `#resource`: Learning materials
 
-- [My First Steps with Agentic AI](blog/2025-03/getting-started-with-agentic-ai.md)
+## Latest Updates 📝
 
-## 🗺️ Current Focus
+### Recent Highlights
+- [Getting Started with Agentic AI](blog/2025-06/getting-started-with-agentic-ai.md)
+- [Stanford AI Insights](blog/2025-06/stanford-agentic-ai-insights.md)
+- [University AI Credits](blog/2025-06/elements-of-ai-university-credits.md)
 
-I'm currently focused on Agentic AI because:
-1. It represents the future of AI development
-2. Has practical applications in solving real problems
-3. Combines multiple fascinating AI disciplines
-4. Offers opportunities for innovation
-5. Can create real value for users
+### Current Focus
+- Implementing AI agents
+- Studying autonomous systems
+- Building practical projects
+- Growing our community
 
-## 🔍 What You'll Find Here
+## Join My Journey 🤝
 
-- My learning journey blog posts
-- Curated AI learning resources
-- Practical project implementations
-- News and updates about Agentic AI
-- Community discussions and contributions
+Learning is better together! Here's how to participate:
 
-## 📈 Track My Progress
+### Ways to Engage
+1. **Follow Along**
+   - Star the repository
+   - Watch for updates
+   - Read blog posts
+   - Track projects
 
-Check out my [public roadmap](TODO.md) to see what I'm currently working on and what's coming next!
+2. **Contribute**
+   - Share experiences
+   - Suggest resources
+   - Join discussions
+   - Give feedback
+
+3. **Learn Together**
+   - Start your journey
+   - Ask questions
+   - Share insights
+   - Build projects
+
+## Resources & Tools
+
+### Learning Paths
+- [Beginner's Guide](/resources/courses)
+- [Project Ideas](/projects)
+- [Study Materials](/resources/papers)
+- [Tool Recommendations](/resources/tools)
+
+### Community
+- [Discussion Forums](/community)
+- [Study Groups](/community/events)
+- [Project Collaboration](/community/projects)
+- [News Updates](/news)
+
+## Best Practices
+
+### For Learners
+- Follow structured paths
+- Practice regularly
+- Join discussions
+- Share progress
+- Help others
+
+### For Contributors
+- Document clearly
+- Share insights
+- Give feedback
+- Stay engaged
+- Be supportive
+
+## Related Resources
+- [Learning Logs](/learning-logs)
+- [Blog Posts](/blog)
+- [News Updates](/news)
+- [Community](/community)
+
+## Version History
+- v1.0 (March 2025) - Initial repository setup
+- v1.1 (May 2025) - Added learning resources
+- v1.2 (June 2025) - Updated to new format
+
+<!-- INTERNAL NOTES -->
+<!--
+Maintenance Schedule:
+- Daily: Learning updates
+- Weekly: Resource reviews
+- Monthly: Content organization
+- Quarterly: Structure review
+
+SEO Keywords: agentic AI learning, AI development, autonomous systems, AI projects, learning journey
+Internal Classification: Learning Repository, Educational Resource
+-->
 
 ---
+*Last Updated: June 25, 2025*  
+*Maintained by: Lucy Sonberg*  
+*Contact: Via GitHub Issues*
 
 *Want to join me on this learning journey? Star ⭐ this repo and follow along!* 
