@@ -56,6 +56,24 @@ A curated collection of high-quality YouTube channels and videos for learning AI
   - Recommended for: All levels
   - Best for: Industry perspectives
 
+### Advanced AI Concepts & Implementation
+- [Stanford Online: Agentic Language Models Deep Dive](https://www.youtube.com/watch?v=kJLiOGle3Lw)
+  - Tags: `#agentic-ai` `#stanford` `#advanced` `#implementation`
+  - Speaker: Insop Song (Principal ML Researcher, GitHub Next)
+  - Published: February 5, 2025
+  - Duration: ~1 hour
+  - Views: 239,877
+  - **Why Watch**: Comprehensive coverage of agentic LMs, from basic concepts to advanced implementation patterns
+  - **Key Topics**:
+    - Training Language Models
+    - RAG (Retrieval Augmented Generation)
+    - Tool Usage & Function Calling
+    - Agentic Design Patterns
+    - Best Practices for Prompting
+  - **Best For**: AI developers and engineers looking to implement agentic AI systems
+  - **Detailed Chapter Markers Available**: Yes (58 minutes of structured content)
+  - **Associated Resources**: [Stanford AI Programs](https://stanford.io/ai)
+
 ## 🎯 Must-Watch Playlists
 
 1. [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
