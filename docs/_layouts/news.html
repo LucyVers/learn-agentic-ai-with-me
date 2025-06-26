@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.lastmod | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "description": "{{ page.description }}",
+  "articleSection": "{{ page.section }}",
+  "keywords": "{{ page.keywords | join: ', ' }}"
+}
+</script>
+
+<article class="news-article">
+  <h1>{{ page.title }}</h1>
+  <div class="metadata">
+    <p>By {{ page.author }} | {{ page.date | date: "%B %d, %Y" }}</p>
+  </div>
+  
+  {{ content }}
+</article> 

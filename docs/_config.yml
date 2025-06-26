@@ -1,0 +1,30 @@
+title: Learn AI with Me
+description: A comprehensive resource for learning about AI and its applications
+baseurl: "/learn-ai-with-me"  # the subpath of your site
+url: "https://lucyvers.github.io"  # replace with your GitHub username
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  news:
+    output: true
+    permalink: /news/:path/
+  blog:
+    output: true
+    permalink: /blog/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: news
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: post 
