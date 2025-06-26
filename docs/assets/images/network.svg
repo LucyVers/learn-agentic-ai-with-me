@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nodes -->
+  <circle cx="100" cy="80" r="15" fill="#5755A1" />
+  <circle cx="100" cy="150" r="15" fill="#5755A1" />
+  <circle cx="100" cy="220" r="15" fill="#5755A1" />
+  
+  <circle cx="200" cy="100" r="15" fill="#7B78C7" />
+  <circle cx="200" cy="200" r="15" fill="#7B78C7" />
+  
+  <circle cx="300" cy="150" r="15" fill="#00C28A" />
+  
+  <!-- Connections -->
+  <line x1="115" y1="80" x2="185" y2="100" stroke="#5755A1" stroke-width="2" />
+  <line x1="115" y1="80" x2="185" y2="200" stroke="#5755A1" stroke-width="2" />
+  <line x1="115" y1="150" x2="185" y2="100" stroke="#5755A1" stroke-width="2" />
+  <line x1="115" y1="150" x2="185" y2="200" stroke="#5755A1" stroke-width="2" />
+  <line x1="115" y1="220" x2="185" y2="100" stroke="#5755A1" stroke-width="2" />
+  <line x1="115" y1="220" x2="185" y2="200" stroke="#5755A1" stroke-width="2" />
+  
+  <line x1="215" y1="100" x2="285" y2="150" stroke="#7B78C7" stroke-width="2" />
+  <line x1="215" y1="200" x2="285" y2="150" stroke="#7B78C7" stroke-width="2" />
+</svg> 
