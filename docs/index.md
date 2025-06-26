@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Welcome to Learn AI with Me
+title: Welcome to Learn Agentic AI with Me
 ---
 
-A comprehensive resource for learning about AI and its applications.
+Discover the world of Agentic AI - autonomous artificial intelligence systems that can understand, decide, and act independently. This resource focuses on how AI agents can perform tasks, solve problems, and interact with their environment with increasing autonomy.
 
 ## Latest News
 {% for post in site.news limit:5 %}
@@ -16,9 +16,11 @@ A comprehensive resource for learning about AI and its applications.
 {% endfor %}
 
 ## About This Project
-This site serves as a hub for learning about artificial intelligence and its practical applications. Here you'll find:
+This site is dedicated to exploring and understanding Agentic AI - the next evolution in artificial intelligence. Here you'll find:
 
-* Latest news in AI development
-* Blog posts about learning experiences
-* Resources and tutorials
-* Project documentation and examples 
+* Latest developments in autonomous AI agents
+* Practical applications of Agentic AI
+* Learning resources and tutorials about AI agents
+* Documentation of agent-based AI projects
+* Insights into AI autonomy and decision-making
+* Real-world examples of AI agents in action 
