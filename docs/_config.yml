@@ -1,11 +1,22 @@
 title: Learn AI with Me
 description: A comprehensive resource for learning about AI and its applications
-baseurl: "/learn-ai-with-me"  # the subpath of your site
-url: "https://lucyvers.github.io"  # replace with your GitHub username
+baseurl: "/learn-agentic-ai-with-me"  # the subpath of your site
+url: "https://lucyvers.github.io"  # your GitHub username
 
 # Build settings
 markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme settings
+minima:
+  date_format: "%Y-%m-%d"
+  header_pages:
+    - about.md
+    - blog/index.md
+    - news/index.md
 
 # Collections
 collections:
@@ -27,4 +38,8 @@ defaults:
       path: ""
       type: "blog"
     values:
-      layout: post 
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default 
