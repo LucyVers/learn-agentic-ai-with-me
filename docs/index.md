@@ -5,7 +5,7 @@ layout: default
 <div class="hero-section">
   <div class="content">
     <h1>Discover Agentic AI</h1>
-    <p class="subtitle">Your guide to understanding and building autonomous AI systems that can act independently.</p>
+    <p class="subtitle">Your comprehensive guide to understanding and building autonomous AI systems that can act independently and effectively.</p>
     <div class="button-group">
       <a href="#get-started" class="button primary-button">Get Started</a>
       <a href="/about" class="button secondary-button">Learn More</a>
