@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <nav class="site-nav">
+          <a href="{{ site.baseurl }}/about" class="page-link">About</a>
+          <a href="{{ site.baseurl }}/blog" class="page-link">Blog</a>
+          <a href="{{ site.baseurl }}/news" class="page-link">News</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      </div>
+    </footer>
+  </body>
+</html> 
