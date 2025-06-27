@@ -4,6 +4,21 @@
 *Last Updated: June 22 2025*
 
 ## Immediate Tasks (Next 2 Weeks)
+### Website Fixes
+- [ ] Fix CSS styling and design
+  - Get CSS processing working correctly
+  - Restore all colors and layout
+  - Fix image display issues
+- [ ] Create missing content pages
+  - Add blog/index.md with content
+  - Add news/index.md with content
+  - Ensure About page works correctly
+- [ ] Fix navigation and links
+  - Update all links to use correct baseurl
+  - Verify all navigation links work
+  - Check Jekyll build process
+  - Review all configuration files
+
 ### Learning
 - [ ] Complete initial modules of Microsoft's AI Agents course
 - [x] Write my first project blog post about getting started with Agentic AI
