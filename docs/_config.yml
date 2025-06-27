@@ -21,9 +21,9 @@ exclude:
 minima:
   date_format: "%Y-%m-%d"
   header_pages:
-    - about.md
-    - blog/index.md
-    - news/index.md
+    - /about.md
+    - /blog/index.md
+    - /news/index.md
 
 # Collections
 collections:

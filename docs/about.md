@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /learn-ai-with-me/about/
 ---
 
 # About Learn Agentic AI with Me
