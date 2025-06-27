@@ -27,7 +27,6 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true # caches dependencies for faster builds
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
