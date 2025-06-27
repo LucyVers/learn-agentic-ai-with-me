@@ -61,21 +61,36 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    line-height: 1.2;
   }
   
   .subtitle {
     font-size: 1.5rem;
     max-width: 800px;
     margin: 0 auto 2rem;
-    opacity: 0.9;
   }
   
   .button-group {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    margin-top: 2rem;
+    
+    .button {
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      
+      &.primary-button {
+        background: $accent-green;
+        color: $text-light;
+      }
+      
+      &.secondary-button {
+        background: transparent;
+        border: 2px solid $text-light;
+        color: $text-light;
+      }
+    }
   }
 }
 
@@ -182,37 +197,6 @@ body {
     color: $text-dark;
     opacity: 0.8;
     margin: 0;
-  }
-}
-
-// Buttons
-.button {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  
-  &.primary-button {
-    background: $accent-green;
-    color: $text-light;
-    
-    &:hover {
-      background: darken($accent-green, 10%);
-      transform: translateY(-2px);
-    }
-  }
-  
-  &.secondary-button {
-    background: transparent;
-    border: 2px solid $text-light;
-    color: $text-light;
-    
-    &:hover {
-      background: rgba(255,255,255,0.1);
-      transform: translateY(-2px);
-    }
   }
 }
 
