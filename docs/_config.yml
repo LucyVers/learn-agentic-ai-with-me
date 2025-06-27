@@ -22,17 +22,10 @@ minima:
   date_format: "%Y-%m-%d"
   header_pages:
     - /about.md
-    - /blog/index.md
-    - /news/index.md
+    - /blog.md
+    - /news.md
 
-# Collections
-collections:
-  news:
-    output: true
-    permalink: /news/:path/
-  blog:
-    output: true
-    permalink: /blog/:path/
+# No collections - using simple pages instead
 
 # Defaults
 defaults:
