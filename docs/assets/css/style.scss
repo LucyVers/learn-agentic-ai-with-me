@@ -2,21 +2,18 @@
 
 // Color variables
 $primary-purple: #5755A1;
-$light-purple: #7B78C7;
-$vibrant-green: #00C28A;
-$coral-pink: #FF6B6B;
-$light-blue: #69C5FF;
-$warm-orange: #FFB169;
+$secondary-purple: #7B78C7;
+$accent-green: #00C28A;
+$background-light: #F5F6FA;
+$text-dark: #333333;
 $text-light: #FFFFFF;
-$heading-color: #333333;
-$background-light: #F8F9FA;
 
 // Base styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: #24292e;
-  background-color: #FFFFFF;
+  color: $text-dark;
+  background-color: $background-light;
   margin: 0;
   padding: 0;
 }
@@ -26,6 +23,7 @@ body {
   background-color: $primary-purple;
   border: none;
   padding: 1rem 0;
+  margin-bottom: 0;
   
   .site-title {
     color: $text-light;
@@ -46,7 +44,7 @@ body {
       margin-left: 2rem;
       
       &:hover {
-        color: $vibrant-green;
+        color: $accent-green;
       }
     }
   }
@@ -54,41 +52,30 @@ body {
 
 // Hero section
 .hero-section {
-  background-color: $primary-purple;
+  background: linear-gradient(135deg, $primary-purple, $secondary-purple);
   color: $text-light;
   padding: 6rem 2rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(120deg, rgba($light-purple, 0.2), rgba($primary-purple, 0.1));
-    z-index: 1;
-  }
-  
-  .content {
-    position: relative;
-    z-index: 2;
-  }
   
   h1 {
-    font-size: 4rem;
-    font-weight: 800;
+    font-size: 3.5rem;
+    font-weight: 700;
     margin-bottom: 1.5rem;
-    letter-spacing: -1px;
+    line-height: 1.2;
   }
   
   .subtitle {
     font-size: 1.5rem;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     opacity: 0.9;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
   }
 }
 
@@ -97,36 +84,28 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  padding: 4rem 2rem;
   max-width: 1200px;
-  margin: -4rem auto 0;
+  margin: -3rem auto 0;
+  padding: 0 2rem;
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 
 .course-card {
-  background: white;
+  background: $text-light;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
   
   &:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-  }
-  
-  &:nth-child(1) {
-    background: linear-gradient(to bottom right, $coral-pink, lighten($coral-pink, 10%));
-  }
-  
-  &:nth-child(2) {
-    background: linear-gradient(to bottom right, $light-blue, lighten($light-blue, 10%));
   }
   
   .card-image {
-    height: 250px;
+    background: linear-gradient(135deg, $primary-purple, $secondary-purple);
     padding: 2rem;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,34 +118,32 @@ body {
   }
   
   .card-content {
-    background: white;
     padding: 2rem;
     
     h2 {
-      font-size: 1.8rem;
       color: $primary-purple;
       margin-bottom: 1rem;
+      font-size: 1.8rem;
     }
     
     p {
-      color: #666;
       margin-bottom: 2rem;
-      font-size: 1.1rem;
+      color: $text-dark;
+      opacity: 0.8;
     }
   }
 }
 
-// Feature grid
+// Features section
 .features-section {
-  background: linear-gradient(135deg, $light-purple, $primary-purple);
+  background: $text-light;
   padding: 6rem 2rem;
-  color: $text-light;
   
   h2 {
     text-align: center;
+    color: $primary-purple;
     font-size: 2.5rem;
     margin-bottom: 4rem;
-    color: $text-light;
   }
 }
 
@@ -179,10 +156,10 @@ body {
 }
 
 .feature-item {
-  background: rgba(255,255,255,0.1);
   padding: 2rem;
+  text-align: center;
+  background: $background-light;
   border-radius: 15px;
-  backdrop-filter: blur(10px);
   transition: transform 0.3s ease;
   
   &:hover {
@@ -196,93 +173,15 @@ body {
   }
   
   h3 {
-    color: $text-light;
+    color: $primary-purple;
     margin-bottom: 1rem;
     font-size: 1.3rem;
   }
   
   p {
-    color: rgba(255,255,255,0.9);
+    color: $text-dark;
+    opacity: 0.8;
     margin: 0;
-    font-size: 1rem;
-  }
-}
-
-// News and updates
-.news-section {
-  padding: 6rem 2rem;
-  background: $text-light;
-  
-  h2 {
-    text-align: center;
-    color: $primary-purple;
-    font-size: 2.5rem;
-    margin-bottom: 4rem;
-  }
-}
-
-.content-columns {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  
-  .column {
-    h3 {
-      color: $primary-purple;
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
-    }
-  }
-}
-
-.post-item {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
-  
-  &:hover {
-    background-color: rgba($light-purple, 0.1);
-  }
-  
-  .post-link {
-    color: $primary-purple;
-    font-weight: 500;
-    font-size: 1.1rem;
-    
-    &:hover {
-      color: $vibrant-green;
-    }
-  }
-  
-  .post-date {
-    color: #666;
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-    display: block;
-  }
-}
-
-// CTA section
-.cta-section {
-  background: linear-gradient(135deg, $primary-purple, $light-purple);
-  color: $text-light;
-  text-align: center;
-  padding: 6rem 2rem;
-  
-  h2 {
-    font-size: 2.5rem;
-    color: $text-light;
-    margin-bottom: 1.5rem;
-  }
-  
-  p {
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin: 0 auto 2rem;
-    opacity: 0.9;
   }
 }
 
@@ -292,16 +191,15 @@ body {
   padding: 1rem 2rem;
   border-radius: 30px;
   font-weight: 600;
-  transition: all 0.3s ease;
   text-decoration: none;
-  margin: 0.5rem;
+  transition: all 0.3s ease;
   
   &.primary-button {
-    background: $vibrant-green;
+    background: $accent-green;
     color: $text-light;
     
     &:hover {
-      background: darken($vibrant-green, 10%);
+      background: darken($accent-green, 10%);
       transform: translateY(-2px);
     }
   }
@@ -318,14 +216,95 @@ body {
   }
 }
 
-// Responsive design
-@media screen and (max-width: 768px) {
-  .hero-section h1 {
+// News section
+.news-section {
+  background: $background-light;
+  padding: 6rem 2rem;
+  
+  h2 {
+    text-align: center;
+    color: $primary-purple;
     font-size: 2.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.content-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  .column h3 {
+    color: $primary-purple;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.post-item {
+  background: $text-light;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
   }
   
-  .course-card {
-    margin: 0 1rem;
+  .post-link {
+    color: $primary-purple;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    
+    &:hover {
+      color: $accent-green;
+    }
+  }
+  
+  .post-date {
+    color: $text-dark;
+    opacity: 0.6;
+    font-size: 0.9rem;
+  }
+}
+
+// CTA section
+.cta-section {
+  background: linear-gradient(135deg, $primary-purple, $secondary-purple);
+  color: $text-light;
+  text-align: center;
+  padding: 6rem 2rem;
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    opacity: 0.9;
+  }
+}
+
+// Responsive design
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 4rem 1rem;
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .course-grid {
+    margin-top: 2rem;
   }
   
   .features-grid {
@@ -334,6 +313,12 @@ body {
   
   .content-columns {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .button-group {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -347,7 +332,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: $heading-color;
+  color: $text-dark;
   letter-spacing: -0.5px;
 }
 

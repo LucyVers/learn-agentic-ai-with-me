@@ -1,5 +1,5 @@
 title: Learn Agentic AI with Me
-description: A comprehensive resource for learning about Agentic AI - exploring autonomous AI agents and their applications
+description: Your guide to understanding and building autonomous AI systems
 baseurl: "/learn-agentic-ai-with-me"  # the subpath of your site
 url: "https://lucyvers.github.io"  # your GitHub username
 
@@ -9,6 +9,17 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - README.md
+  - LICENSE
 
 # Theme settings
 minima:
@@ -29,16 +40,6 @@ collections:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: news
-  - scope:
-      path: ""
-      type: "blog"
-    values:
-      layout: post
   - scope:
       path: ""
     values:
