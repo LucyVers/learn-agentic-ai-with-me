@@ -21,7 +21,7 @@ layout: home
     <div class="card-content">
       <h2>Foundations of Agentic AI</h2>
       <p>Start your journey into the world of autonomous AI agents. Learn the fundamental concepts, principles, and applications of AI systems that can act independently.</p>
-      <a href="{{ site.baseurl }}/foundations" class="button primary-button">Start Learning</a>
+      <a href="{{ site.baseurl }}/blog/" class="button primary-button">Start Learning</a>
     </div>
   </div>
   
@@ -32,7 +32,7 @@ layout: home
     <div class="card-content">
       <h2>Building AI Agents</h2>
       <p>Dive deep into practical implementation of AI agents. Learn how to create, train, and deploy autonomous systems that can interact with their environment.</p>
-      <a href="{{ site.baseurl }}/building" class="button primary-button">Explore Projects</a>
+      <a href="{{ site.baseurl }}/blog/" class="button primary-button">Explore Projects</a>
     </div>
   </div>
 </div>
