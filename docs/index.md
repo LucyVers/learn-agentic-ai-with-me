@@ -83,7 +83,7 @@ layout: default
   <div class="content-columns">
     <div class="column">
       <h3>Latest News</h3>
-      {% for post in site.categories.news limit:5 %}
+      {% for post in site.news limit:5 %}
         <div class="post-item">
           <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -93,7 +93,7 @@ layout: default
     
     <div class="column">
       <h3>Recent Blog Posts</h3>
-      {% for post in site.categories.blog limit:5 %}
+      {% for post in site.blog limit:5 %}
         <div class="post-item">
           <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>

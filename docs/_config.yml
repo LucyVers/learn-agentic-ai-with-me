@@ -9,6 +9,16 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  blog:
+    output: true
+    permalink: /blog/:name/
+  news:
+    output: true
+    permalink: /news/:name/
 
 # Exclude from processing
 exclude:
@@ -16,20 +26,16 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - blog.md
+  - news.md
 
-# Theme settings
+# Theme settings (navigation is handled in _layouts/default.html)
 minima:
   date_format: "%Y-%m-%d"
-  header_pages:
-    - /about.md
-    - /blog.md
-    - /news.md
-
-# No collections - using simple pages instead
 
 # Defaults
 defaults:
   - scope:
       path: ""
     values:
-      layout: default 
+      layout: default

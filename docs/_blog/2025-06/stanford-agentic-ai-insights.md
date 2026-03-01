@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Stanford's Deep Dive into Agentic AI: Key Insights for Developers"
+date: 2025-06-25
+author: Lucy Sonberg
+---
+
 # Stanford's Deep Dive into Agentic AI: Key Insights for Developers 🎯
 
 *Published: June 25, 2025*  

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Elements of AI: Free AI Course Now Offering University Credits"
+date: 2025-06-24
+author: Lucy Sonberg
+---
+
 # Elements of AI: Free AI Course Now Offering University Credits 🎯
 
 *Published: June 24, 2025*  

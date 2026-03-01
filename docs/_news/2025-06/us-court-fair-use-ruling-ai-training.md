@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Landmark US Court Ruling: AI Training on Copyrighted Books Deemed Fair Use"
+date: 2025-06-26
+author: Lucy Sonberg
+---
+
 <!-- SEO and Directory Information -->
 <meta name="directory-type" content="news-article" />
 <meta name="primary-topic" content="AI Legal Development" />

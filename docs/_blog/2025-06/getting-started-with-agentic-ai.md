@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Understanding AI Agents: The Building Blocks of Autonomous AI"
+date: 2025-06-22
+author: Lucy Sonberg
+---
+
 # Understanding AI Agents: The Building Blocks of Autonomous AI 🎯
 
 *Published: June 22, 2025*  

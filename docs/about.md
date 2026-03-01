@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /learn-ai-with-me/about/
+permalink: /about/
 ---
 
 # About Learn Agentic AI with Me
