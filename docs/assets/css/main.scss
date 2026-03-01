@@ -392,7 +392,14 @@ body {
 }
 
 /* ========================================
-   PAGE CONTENT (blog posts etc.)
+   HOME LAYOUT (full width, no container)
+======================================== */
+.home-content {
+  width: 100%;
+}
+
+/* ========================================
+   PAGE CONTENT (blog posts, about etc.)
 ======================================== */
 .page-content {
   max-width: 760px;
@@ -403,6 +410,26 @@ body {
 .page-content img {
   max-width: 100%;
   border-radius: 8px;
+}
+
+.page-content h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.page-content h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: #1a1a2e;
+}
+
+.page-content p,
+.page-content li {
+  color: #444;
+  line-height: 1.8;
 }
 
 /* ========================================
