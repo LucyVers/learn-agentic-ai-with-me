@@ -107,6 +107,7 @@ layout: default
   <h2>Join Our Community</h2>
   <p>Ready to explore the world of Agentic AI? Start your journey into autonomous AI systems today.</p>
   <div class="button-group">
-    <a href="/get-started" class="button primary-button">Get Started Now</a>
-    <a href="/resources" class="button secondary-button">Browse Resources</a>
-  </div> 
+    <a href="{{ site.baseurl }}/blog" class="button primary-button">Read the Blog</a>
+    <a href="{{ site.baseurl }}/about" class="button secondary-button">Learn More</a>
+  </div>
+</div>
